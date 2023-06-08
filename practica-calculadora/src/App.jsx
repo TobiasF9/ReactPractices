@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>Ejercicio calculadora (っ ͡❛ᴗ ͡❛)っ🎔</h1>
+      <h1>Ejercicio calculadora</h1>
       <Calculadora />
     </>
   );

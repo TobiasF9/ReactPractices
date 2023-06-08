@@ -9,13 +9,13 @@ function App() {
   };
 
   const appReset = () => {
-    setContador(0)
-    setUser(false)
+    setContador(0);
+    setUser(false);
   };
 
   return (
     <>
-      <h1>Venta Farmaceuticos (っ ͡❛ᴗ ͡❛)っ🎔</h1>
+      <h1>Venta Farmaceuticos</h1>
       <Button ContadorCallback={ContadorCallback} contador={contador} />
       <p>Medicamentos comprados: {contador} </p>
       <Formulario />
@@ -66,11 +66,12 @@ const Formulario = () => {
 
   const chequeandoLas2 = () => {
     if (userRef.current.value.length === 0) {
-      setUser(false)
+      setUser(false);
       userRef.current.focus();
-    } if (passwordRef.current.value.length <=3) {
-      setPass(false)
-      console.log("paso por el if")
+    }
+    if (passwordRef.current.value.length <= 3) {
+      setPass(false);
+      console.log("paso por el if");
     }
   };
 

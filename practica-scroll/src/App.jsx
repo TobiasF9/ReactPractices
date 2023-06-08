@@ -5,7 +5,7 @@ import { useRef } from "react";
 function App() {
   return (
     <>
-      <h1>Venta Farmaceuticos (っ ͡❛ᴗ ͡❛)っ🎔</h1>
+      <h1>Venta Farmaceuticos</h1>
       <TimeCount />
     </>
   );
