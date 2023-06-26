@@ -1,3 +1,13 @@
+// Crea un componente de React llamado ContadorTiempo que muestre un contador de tiempo en minutos y segundos.
+// El componente debe tener botones de inicio, pausa y reinicio. 
+// Al hacer clic en el botón de inicio, 
+// el contador debe comenzar a contar hacia abajo desde un valor inicial 
+// (por ejemplo, 5 minutos). 
+// Al hacer clic en el botón de pausa, 
+// el contador debe detenerse en su lugar actual. 
+// Al hacer clic en el botón de reinicio, 
+// el contador debe volver al valor inicial
+
 import { useState } from "react";
 import "./App.css";
 

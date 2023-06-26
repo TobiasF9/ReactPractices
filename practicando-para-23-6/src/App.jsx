@@ -1,3 +1,9 @@
+// Ejercicio de lógica de componentes:
+// Crea un componente de lista de tareas. El componente debe permitir agregar nuevas tareas, 
+// marcar tareas como completadas y eliminar tareas existentes. 
+// Utiliza useState para gestionar la lista de tareas y su estado (completada o no). 
+// Muestra las tareas en pantalla y agrega controles para marcar y eliminar cada tarea.
+
 import { useState, useRef } from "react";
 import "./App.css";
 

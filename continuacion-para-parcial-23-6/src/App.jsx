@@ -1,3 +1,5 @@
+//Ejercicio: practicaEj1Parcial.
+
 import { useRef, useState } from "react";
 import "./App.css";
 

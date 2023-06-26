@@ -1,16 +1,10 @@
 // const books = [ { title: “El Quijote de la Mancha”, rating: 7.9 }, { title: “El señor de los anillos”, rating: 8.1 }, { title: “Dune”, rating: 7.8 }, { title: “Martín Fierro”, rating: 9.2 } ]
-
 // Escribir el componente Books.js que reciba por props este arreglo,
-
 // filtre los libros con rating mayor a 8 y
-
 // devuelva un componente Book por cada una de las películas que cumplen esta condición.
-
 // Book debe tener una etiqueta h1 con el título y una etiqueta p con el puntaje.
 // <Book title = {/* aca el titulo /} rating = {/ aca el puntaje */} />
-
 // Si el puntaje es mayor a nueve debería mostrarse en negrita.
-
 
 import "./App.css";
 
